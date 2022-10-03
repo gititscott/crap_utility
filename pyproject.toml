@@ -1,10 +1,10 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=61.0", "pandas>=1.5.0", "numpy>=1.23.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "crap_utility"
-version = "0.0.3"
+version = "0.0.4"
 authors = [
   { name="Example Author", email="author@example.com" },
 ]
@@ -16,6 +16,8 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+
+dependencies = ["setuptools>=61.0", "pandas>=1.5.0", "numpy>=1.23.3"]
 
 [project.urls]
 "Homepage" = "https://github.com/pypa/sampleproject"
